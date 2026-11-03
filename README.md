@@ -18,7 +18,8 @@ audio files.
 ## Publish with GitHub Pages
 
 The GitHub Actions workflow in `.github/workflows/pages.yml` deploys the site
-when a branch is pushed. In the repository settings, ensure **Settings >
-Pages > Build and deployment > Source** is set to **GitHub Actions**.
+when a branch is pushed and enables Pages if needed. If the workflow cannot
+enable Pages, set **Settings > Pages > Build and deployment > Source** to
+**GitHub Actions** and rerun it.
 
 The site URL is `https://<owner>.github.io/<repository>/`.
